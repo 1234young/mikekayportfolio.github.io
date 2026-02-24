@@ -209,20 +209,22 @@ strong{
   .hero-image img {
     width: 200px;
     height: 200px;
-    margin-top: -7.5rem;
+    margin-top: -11rem;
   }
   .hero-actions {
     margin-left: -0.5rem;
-    display: inline-block;
-    gap: 1.5rem;
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
     
   }
   .btn {
-  padding: 0.55rem 0.6rem;
+  padding: 0.5rem ;
   border-radius: 999px;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
-  margin: 1rem;
+  margin: 0.6rem 0.4rem;
   }
 }
